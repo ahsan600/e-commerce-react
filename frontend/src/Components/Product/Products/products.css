@@ -1,0 +1,28 @@
+.products {
+  /* margin-top: 50px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+
+}
+.pagination{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.searchProduct{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input{
+ 
+
+    border-radius: 10px;
+    width: 550px;
+    height: 40px;
+    padding-left: 20px;
+  }
+}

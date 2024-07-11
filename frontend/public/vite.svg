@@ -1,0 +1,19 @@
+Daily Report 
+
+Task Done:
+ 1)Create a new React app with a header and a product page that lists products with their image, price, and title.
+ 2)Implement  search and filter products functionality.
+ 3)Create a product detail page that renders when we click on a product and contains more information about the product (Using Redux ToolKit).
+ 4)Create a Single product Page.
+ 5)Implement the Array data into Single product page
+ 6)Add Product to the Crat
+ 7)Increase the qunatity of the cartProduct if user add the same product
+
+Goal Achievement
+
+Achieved today's set goals.
+Mood: 
+Feeling good.
+
+Blockers:
+No blockers encountered today.

@@ -1,0 +1,59 @@
+.cartProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .cartLeft {
+      flex: 1;
+      height: 80vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      overflow-y: scroll;
+      scrollbar-width: thin;
+      /* Adjust the height or max-height as needed */
+      max-height: 700px; /* Example height */
+    }
+  
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width: 500px;
+    }
+  
+    .cardBody {
+      padding: 10px;
+  
+      .card-img {
+        width: 40%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .card-desc {
+        .quantity {
+          button {
+            border: none;
+            outline: none;
+            margin: 10px;
+          }
+        }
+      }
+    }
+  
+  }
+  .cartRight {
+  width: 30%;
+}
+  .checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+    button {
+      width: 500px;
+    }
+  }
+  
