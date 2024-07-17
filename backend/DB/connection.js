@@ -1,3 +1,3 @@
 const mongoose = require("mongoose");
-const connectDatabase=async()=> await mongoose.connect("mongodb://localhost:27017/e-commerce");
+const connectDatabase=async()=> await mongoose.connect(process.env.DATA_URL);
 module.exports=connectDatabase
