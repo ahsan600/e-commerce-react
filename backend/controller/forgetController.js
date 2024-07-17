@@ -7,13 +7,13 @@ const sendMail = (name, email, token, res) => {
     let transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "ali.hassnain.atrule@gmail.com",
-        pass: "tjtrywhjuildvkgx",
+        user:process.env.SERCET_EMAIL,
+        pass: process.env.SERCET_PASS,
       },
     });
 
     const mailOptions = {
-      from: "ali.hassnain.atrule@gmail.com",
+      from:process.env.SERCET_EMAIL,
       to: email,
       subject: "Reset E-Commerce Password",
       html: `<p>Hi ${name},</p><p>Please click on the link below to reset your password:</p><p><a href="http://localhost:5173/resetpassword?token=${token}">Reset Password</a></p>`,
